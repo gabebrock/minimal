@@ -12,6 +12,12 @@ There were 5,249,105 NYPD stops recorded between 2002 and 2023. Of those stopped
 
 While it’s been found that when adjusted for the higher overall crime rate, arrest rates are not higher at hot spots [1], only 6% of all reported stops result in an arrest [2]. It has long been conjectured that the Terry stop was racially biased [3] and its use in NYC was ruled unconstitutional [3], but even as the total number of Terry stops has decreased (down from 685,724 in 2010 to 16,971 in 2023), the proportion of Black individuals stopped has consistently remained between 52% and 60% since its implementation in 2002, and the proportion growing post-Floyd vs. NYC. 
 
+## Stop-and-Frisk Over Time
+![stop-and-frisk](assets/img/sqf-over-time.png)
+
+## Reported Stops (2018-2023)
+![stop-and-frisk](assets/img/stops.png)
+
 Research has found that in 40% to 45% of violent crime hot spots in NYC, officers were conducting a significantly higher number of Terry stops than expected [1]. Previous research discusses how policing strategies can lead to racial disparities [4], [5], [6] and the civil rights implications of predictive policing [6], [7], but there is little in-depth quantitative analysis of racial variations in SQFs.
 
 Two major events preceded the proportional increase in Black Terry stops over the last 10 years; Floyd vs. City of New York, which led to a dramatic decrease in the number of SQFs in NYC [3], and the NYPD’s implementation of the Domain Awareness System (DAS), which provides officers real-time crime statistics, biographical data, place-based critical alerts and potential threats, historical crime data, and other information. However, several problems arise with this big-data policing. 
