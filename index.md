@@ -5,6 +5,8 @@ layout: default
 # Thesis Statement (IV, DV, Mechanism)
 This thesis is motivated by the prevalent development of surveillance technology and predictive policing in the 21st century. The premise of this study is the suggestion that the implementation of predictive place-based policing has had a disparate racial impact in New York City.  In contrast to the existing literature, this research focuses on how place-based policing interacts with other forms, especially Stop-Question-Frisk (SQF) or the Terry Stop. The study seeks particularly to analyze why the proportion of Black individuals that are Terry stopped in New York City has increased since 2012.  I hypothesize that **data-driven hot-spot policing leads to a disproportionate amount of racialized non-arrest interactions by predisposing officers to the belief that individuals within these crime hotspots are more likely to commit crimes.**
 
+![thesis mechanism](assets/img/mech.jpg)
+
 # Approach and Data Sources
 There were 5,249,105 NYPD stops recorded between 2002 and 2023. Of those stopped, 2,675,183 (51%) were Black, 1,569,780 (30%) were Hispanic, and 508,922 (10%) were White. This is despite New York’s overall population being 20.2% Black, 28.7% Hispanic, and 30.9% White as of the 2010 census. 
 
@@ -22,8 +24,6 @@ Two major events preceded the proportional increase in Black Terry stops over th
   1. Patrol officers got out of their cars more, engaged citizens more, and focused on “intelligence gathering.” Police officers stopped and questioned more people, ran people’s records, investigated unreported narcotics use, and tried to understand who was involved in criminal activity. [4] 
 
 **Given that we care about mitigating the disparate impact-cost of public safety, it is important that we understand how the spillover effects of the development and implementation of these technologies.**
-
-![thesis mechanism](assets/img/mech.jpg)
 
 ## Assumptions
 Since hot-spot policing is implemented as a resource distribution method, it concentrates officers in predictably “high-crime” areas. While it has been found that there is a high correlation between the concentration of crimes and SQFs, hot-spot policing is a theoretically precise deployment method (with officers being deployed to specific street intersections). The designation of an area as high-crime, therefore, leads to over-policing in the form of resource concentration and data-backed profiling given that officers have statistical insight that crimes often occur within this small geographic area.
