@@ -72,7 +72,8 @@ The universe of cases my study seeks to explain includes U.S. urban police depar
 - **Draft IRB Proposal**. I know the IRB rep said we probably wouldn't need Approval but I still need to draft an IRB proposal for the interviews with NYPD officers.
 - **Preliminary Descriptive Analysis**
 
- 
+
+# Works Cited 
 - [1]	H. Duru and H. Akbas, “Measuring hot spots policing in non-research settings,” International Journal of Law, Crime and Justice, vol. 65, p. 100468, Jun. 2021, doi: 10.1016/j.ijlcj.2021.100468.
 - [2]	“A Closer Look at Stop-and-Frisk in NYC,” NYCLU. Accessed: Feb. 03, 2025. [Online]. Available: [](https://www.nyclu.org/data/closer-look-stop-and-frisk-nyc)
 - [3]	Center for Constitutional Rights, “Floyd, et al. v. City of New York, et al.,” Center for Constitutional Rights, New York, NY, Feb. 2025. Accessed: Feb. 10, 2025. [Online]. Available: [](https://ccrjustice.org/node/1765)
