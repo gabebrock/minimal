@@ -14,7 +14,7 @@ Research has found that in 40% to 45% of violent crime hot spots in NYC, officer
 
 Two major events preceded the proportional increase in Black Terry stops over the last 10 years; Floyd vs. City of New York, which led to a dramatic decrease in the number of SQFs in NYC [3], and the NYPD’s implementation of the Domain Awareness System (DAS), which provides officers real-time crime statistics, biographical data, place-based critical alerts and potential threats, historical crime data, and other information. However, several problems arise with this big-data policing. 
 
-1.	A**udits of the NYPD arrest system demonstrated recurring errors in crime data entry.** [8] 
+1.	**Audits of the NYPD arrest system demonstrated recurring errors in crime data entry.** [8] 
   1. Officers fill out SQF forms by hand, and then the forms are entered manually into a database. Thus, the reliability of SQF data is an issue, and it should be considered while interpreting the results of this study. [1]
 2.	Since 2016, NYPD’s DAS has employed an **AI-driven crime prediction tool**, Patternizr [9], **has raised concerns about racial bias** [10] 
   1. Especially because Patternizr includes arrest data in its predictions and research has posited that “predictive systems based primarily on arrests will mirror policing patterns more than predictive systems focused on reported crimes will.” [4]
@@ -22,6 +22,8 @@ Two major events preceded the proportional increase in Black Terry stops over th
   1. Patrol officers got out of their cars more, engaged citizens more, and focused on “intelligence gathering.” Police officers stopped and questioned more people, ran people’s records, investigated unreported narcotics use, and tried to understand who was involved in criminal activity. [4] 
 
 **Given that we care about mitigating the disparate impact-cost of public safety, it is important that we understand how the spillover effects of the development and implementation of these technologies.**
+
+![thesis mechanism](assets/img/mech.jpg)
 
 ## Assumptions
 Since hot-spot policing is implemented as a resource distribution method, it concentrates officers in predictably “high-crime” areas. While it has been found that there is a high correlation between the concentration of crimes and SQFs, hot-spot policing is a theoretically precise deployment method (with officers being deployed to specific street intersections). The designation of an area as high-crime, therefore, leads to over-policing in the form of resource concentration and data-backed profiling given that officers have statistical insight that crimes often occur within this small geographic area.
@@ -64,22 +66,26 @@ Potential cities I’ve looked at are Chicago, which has used HunchLab and other
 The universe of cases my study seeks to explain includes U.S. urban police departments that use place-based predictive policing tools. While data limitations restrict me to a few cities in practice, I aim to develop theory and findings that are applicable across a broader set of technologically mediated law enforcement agencies. New York is a particularly compelling case because of its long history of stop-and-frisk, its early adoption of predictive policing tools, and its rich, publicly available policing and demographic datasets. The addition of a second city will test the generalizability of my claims and clarify which dynamics are unique to NYPD versus common across predictive policing systems.
 
 # Next Steps
-- There are conflicting methodologies for delineating space for analysis. Whether intersections [1], [12] or spatial tiles [13], [14]. Figuring out what method is better suited for racial analysis is a chief concern.
+- **Find a Thesis Advisor**. I have a few leads, but I still need to find someone who is willing to work with me on this project.
+- **Confirm Second Case City**. I need to find another city that has comprable data availability and richness.
+- **Finalize method for geospatial sectioning**. There are conflicting methodologies for delineating space for analysis. Whether intersections [1], [12] or spatial tiles [13], [14]. 
+- **Draft IRB Proposal**. I know the IRB rep said we probably wouldn't need Approval but I still need to draft an IRB proposal for the interviews with NYPD officers.
+- **Preliminary Descriptive Analysis**
 
  
-[1]	H. Duru and H. Akbas, “Measuring hot spots policing in non-research settings,” International Journal of Law, Crime and Justice, vol. 65, p. 100468, Jun. 2021, doi: 10.1016/j.ijlcj.2021.100468.
-[2]	“A Closer Look at Stop-and-Frisk in NYC,” NYCLU. Accessed: Feb. 03, 2025. [Online]. Available: https://www.nyclu.org/data/closer-look-stop-and-frisk-nyc
-[3]	Center for Constitutional Rights, “Floyd, et al. v. City of New York, et al.,” Center for Constitutional Rights, New York, NY, Feb. 2025. Accessed: Feb. 10, 2025. [Online]. Available: https://ccrjustice.org/node/1765
-[4]	A. G. Ferguson, The rise of big data policing: surveillance, race, and the future of law enforcement. New York: New York University Press, 2017.
-[5]	K. Lum and W. Isaac, “To Predict and Serve?,” Significance, vol. 13, no. 5, pp. 14–19, Oct. 2016, doi: 10.1111/j.1740-9713.2016.00960.x.
-[6]	Barocas, Solon; Selbst, Andrew D, “Big Data’s Disparate Impact,” California Law Review, vol. 104, no. 3, pp. 671–732, 2016, doi: 10.15779/Z38BG31.
-[7]	R. Richardson, J. Schultz, and K. Crawford, “Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice,” Feb. 13, 2019, Rochester, NY: 3333423. Accessed: Feb. 25, 2025. [Online]. Available: https://papers.ssrn.com/abstract=3333423
-[8]	J. Morganteen, “Report Confirms NYPD Crime Stats Manipulation,” The New York World, Jul. 12, 2013. Accessed: Mar. 27, 2025. [Online]. Available: http://www.thenewyorkworld.com/2013/07/03/compstat/
-[9]	A. Chohlas-Wood and E. S. Levine, “A Recommendation Engine to Aid in Identifying Crime Patterns,” INFORMS Journal on Applied Analytics, vol. 49, no. 2, pp. 154–166, Mar. 2019, doi: 10.1287/inte.2019.0985.
-[10]	B. Holak, “NYPD’s Patternizr crime analysis tool raises AI bias concerns | TechTarget,” TechTarget. Accessed: Mar. 27, 2025. [Online]. Available: https://www.techtarget.com/searchbusinessanalytics/news/252459511/NYPDs-Patternizr-crime-analysis-tool-raises-AI-bias-concerns
-[11]	P. Hunt, J. Saunders, and J. S. Hollywood, “Evaluation of the Shreveport Predictive Policing Experiment,” RAND Corporation, Jul. 2014. Accessed: Mar. 27, 2025. [Online]. Available: https://www.rand.org/pubs/research_reports/RR531.html
-[12]	E. S. Levine, J. Tisch, A. Tasso, and M. Joy, “The New York City Police Department’s Domain Awareness System,” Interfaces, vol. 47, no. 1, pp. 70–84, Feb. 2017, doi: 10.1287/inte.2016.0860.
-[13]	New York Police Department, “Domain Awareness System (DAS): Impact and Use Policy,” New York Police Department, New York, N.Y., Apr. 2021. Accessed: Mar. 25, 2025. [Online]. Available: https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/domain-awareness-system-das-nypd-impact-and-use-policy_4.9.21_final.pdf
-[14]	M. Griffard, “A Bias-Free Predictive Policing Tool?: An Evaluation of the NYPD’s Patternizr,” Fordham Urban Law Journal, vol. 43, no. 1, pp. 43–70, 2019.
+- [1]	H. Duru and H. Akbas, “Measuring hot spots policing in non-research settings,” International Journal of Law, Crime and Justice, vol. 65, p. 100468, Jun. 2021, doi: 10.1016/j.ijlcj.2021.100468.
+- [2]	“A Closer Look at Stop-and-Frisk in NYC,” NYCLU. Accessed: Feb. 03, 2025. [Online]. Available: [](https://www.nyclu.org/data/closer-look-stop-and-frisk-nyc)
+- [3]	Center for Constitutional Rights, “Floyd, et al. v. City of New York, et al.,” Center for Constitutional Rights, New York, NY, Feb. 2025. Accessed: Feb. 10, 2025. [Online]. Available: [](https://ccrjustice.org/node/1765)
+- [4]	A. G. Ferguson, The rise of big data policing: surveillance, race, and the future of law enforcement. New York: New York University Press, 2017.
+- [5]	K. Lum and W. Isaac, “To Predict and Serve?,” Significance, vol. 13, no. 5, pp. 14–19, Oct. 2016, doi: 10.1111/j.1740-9713.2016.00960.x.
+- [6]	Barocas, Solon; Selbst, Andrew D, “Big Data’s Disparate Impact,” California Law Review, vol. 104, no. 3, pp. 671–732, 2016, doi: 10.15779/Z38BG31.
+- [7]	R. Richardson, J. Schultz, and K. Crawford, “Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice,” Feb. 13, 2019, Rochester, NY: 3333423. Accessed: Feb. 25, 2025. [Online]. Available: [](https://papers.ssrn.com/abstract=3333423)
+- [8]	J. Morganteen, “Report Confirms NYPD Crime Stats Manipulation,” The New York World, Jul. 12, 2013. Accessed: Mar. 27, 2025. [Online]. Available: [](http://www.thenewyorkworld.com/2013/07/03/compstat/)
+- [9]	A. Chohlas-Wood and E. S. Levine, “A Recommendation Engine to Aid in Identifying Crime Patterns,” INFORMS Journal on Applied Analytics, vol. 49, no. 2, pp. 154–166, Mar. 2019, doi: 10.1287/inte.2019.0985.
+- [10]	B. Holak, “NYPD’s Patternizr crime analysis tool raises AI bias concerns | TechTarget,” TechTarget. Accessed: Mar. 27, 2025. [Online]. Available: [](https://www.techtarget.com/searchbusinessanalytics/news/252459511/NYPDs-Patternizr-crime-analysis-tool-raises-AI-bias-concerns)
+- [11]	P. Hunt, J. Saunders, and J. S. Hollywood, “Evaluation of the Shreveport Predictive Policing Experiment,” RAND Corporation, Jul. 2014. Accessed: Mar. 27, 2025. [Online]. Available: [](https://www.rand.org/pubs/research_reports/RR531.html)
+- [12]	E. S. Levine, J. Tisch, A. Tasso, and M. Joy, “The New York City Police Department’s Domain Awareness System,” Interfaces, vol. 47, no. 1, pp. 70–84, Feb. 2017, doi: 10.1287/inte.2016.0860.
+- [13]	New York Police Department, “Domain Awareness System (DAS): Impact and Use Policy,” New York Police Department, New York, N.Y., Apr. 2021. Accessed: Mar. 25, 2025. [Online]. Available: [](https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/domain-awareness-system-das-nypd-impact-and-use-policy_4.9.21_final.pdf)
+- [14]	M. Griffard, “A Bias-Free Predictive Policing Tool?: An Evaluation of the NYPD’s Patternizr,” Fordham Urban Law Journal, vol. 43, no. 1, pp. 43–70, 2019.
 
 
