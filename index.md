@@ -2,122 +2,62 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Thesis Statement (IV, DV, Mechanism)
+This thesis is motivated by the prevalent development of surveillance technology and predictive policing in the 21st century. The premise of this study is the suggestion that the implementation of predictive place-based policing has had a disparate racial impact in New York City.  In contrast to the existing literature, this research focuses on how place-based policing interacts with other forms, especially Stop-Question-Frisk (SQF) or the Terry Stop. The study seeks particularly to analyze why the proportion of Black individuals that are Terry stopped in New York City has increased since 2012.  I hypothesize that **data-driven hot-spot policing leads to a disproportionate amount of racialized non-arrest interactions by predisposing officers to the belief that individuals within these crime hotspots are more likely to commit crimes.**
 
-[Link to another page](./another-page.html).
+# Approach and Data Sources
+There were 5,249,105 NYPD stops recorded between 2002 and 2023. Of those stopped, 2,675,183 (51%) were Black, 1,569,780 (30%) were Hispanic, and 508,922 (10%) were White. This is despite New York’s overall population being 20.2% Black, 28.7% Hispanic, and 30.9% White as of the 2010 census. 
 
-There should be whitespace between paragraphs.
+While it’s been found that when adjusted for the higher overall crime rate, arrest rates are not higher at hot spots [1], only 6% of all reported stops result in an arrest [2]. It has long been conjectured that the Terry stop was racially biased [3] and its use in NYC was ruled unconstitutional [3], but even as the total number of Terry stops has decreased (down from 685,724 in 2010 to 16,971 in 2023), the proportion of Black individuals stopped has consistently remained between 52% and 60% since its implementation in 2002, and the proportion growing post-Floyd vs. NYC. 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Research has found that in 40% to 45% of violent crime hot spots in NYC, officers were conducting a significantly higher number of Terry stops than expected [1]. Previous research discusses how policing strategies can lead to racial disparities [4], [5], [6] and the civil rights implications of predictive policing [6], [7], but there is little in-depth quantitative analysis of racial variations in SQFs.
 
-# Header 1
+Two major events preceded the proportional increase in Black Terry stops over the last 10 years; Floyd vs. City of New York, which led to a dramatic decrease in the number of SQFs in NYC [3], and the NYPD’s implementation of the Domain Awareness System (DAS), which provides officers real-time crime statistics, biographical data, place-based critical alerts and potential threats, historical crime data, and other information. However, several problems arise with this big-data policing. 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+1. **Audits of the NYPD arrest system demonstrated recurring errors in crime data entry.** 
+  - Officers fill out SQF forms by hand, and then the forms are entered manually into a database. Thus, the reliability of SQF data is an issue, and it should be considered while interpreting the results of this study. [1]
 
-## Header 2
+2. Since 2016, NYPD’s DAS has employed an AI-driven crime prediction tool, Patternizr, which has raised concerns about racial bias. [9][10]  
+  - Especially because Patternizr includes arrest data in its predictions, and research has posited that “predictive systems based primarily on arrests will mirror policing patterns more than predictive systems focused on reported crimes will.” [4]
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+3. **Researchers observed that patrol officers become more like detectives trying to figure out the crime drivers in the predicted crime area.** [11]  
+  - Patrol officers got out of their cars more, engaged citizens more, and focused on “intelligence gathering.” Police officers stopped and questioned more people, ran people’s records, investigated unreported narcotics use, and tried to understand who was involved in criminal activity. [4]
 
-### Header 3
+Given that we care about mitigating the disparate impact-cost of public safety, it is important that we understand how the spillover effects of the development and implementation of these technologies.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Assumptions
+Since hot-spot policing is implemented as a resource distribution method, it concentrates officers in predictably “high-crime” areas. While it has been found that there is a high correlation between the concentration of crimes and SQFs, hot-spot policing is a theoretically precise deployment method (with officers being deployed to specific street intersections). The designation of an area as high-crime, therefore, leads to over-policing in the form of resource concentration and data-backed profiling given that officers have statistical insight that crimes often occur within this small geographic area.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+# Methods
+For my thesis, I plan on using a nested research design that combines large-scale statistical and geospatial analysis with two comparative case studies. This approach will hopefully allow me to test my research question, how and why predictive policing technologies shape racial disparities in Terry stops, particularly for Black individuals. I hope this enhances both the internal and external validity of my findings and enables a deeper understanding of my proposed causal mechanisms.
 
-#### Header 4
+First, I will analyze 10 years of publicly available NYPD stop-and-frisk data (2010-2020), cross-referenced with precinct-level crime data, census-tract-level demographic information, and operational policing data such as patrol frequency, arrest rates, and the rollout of predictive tools like the Domain Awareness System (DAS)  and Patternizr  in New York City. This statistical and geospatial analysis will allow me to test my central hypothesis: that the use of predictive, place-based policing technologies (IV) correlates with an increase in the racial disparity of Terry stops, particularly against Black individuals (DV), even when controlling for local crime rates and neighborhood composition.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Mechanism Criteria
+To further refine these findings and explore underlying mechanisms, I will conduct comparative case studies of several dozen crime “hotspots” across precincts in New York City and do the same in another city that uses hot-spot policing like Los Angeles. These hotspots will be selected based on three dimensions:
+1.	The degree of predictive policing implementation (e.g., the extent of DAS/Patternizr usage);
+2.	The racial and socioeconomic composition of the neighborhood; and
+3.	Observed temporal changes in stop-and-frisk trends, particularly post-2013 following Floyd v. City of New York.
 
-##### Header 5
+This criteria will help me select both typical cases (where predictive policing is strongly associated with racial disparities) and deviant cases (where disparities exist without heavy tech use, or where predictive tools are used without resulting in racial disparities). By exploring a diverse set of cases, I can explore where the relationship between predictive policing and race holds—and where it doesn’t—thus identifying scope conditions and possible moderating variables such as officer discretion, leadership practices, or community oversight.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+My approach draws inspiration from the RAND Predictive Policing Shreveport Study , which assessed predictive policing by comparing areas with and without the intervention while using quasi-experimental logic. Like Hunt et al. in the RAND study, I will analyze police behavior and stop outcomes in both predictive and non-predictive areas. Though I cannot implement a randomized control trial, I do take advantage of as-if random variation in the adoption and intensity of predictive policing tools across NYPD precincts. Decisions about where and when to implement technologies like DAS and Patternizr have been driven largely by internal department logistics and not by neighborhood racial composition alone. This allows me to treat the variation in predictive policing implementation across otherwise similar precincts as a form of natural experiment.
 
-###### Header 6
+For example, I will compare stop-and-frisk patterns in two precincts with similar crime rates and racial demographics, but different levels of DAS use. If the precinct with greater predictive policing shows a significantly higher racial disparity in stops (particularly non-arrest stops), this supports my hypothesis that the technology itself—not just underlying crime or officer discretion—is amplifying racial bias. Similarly, by comparing changes over time in predictive policing “hotspots,” I can explore whether officers in those zones engage more frequently in discretionary surveillance behaviors (like intelligence gathering or “proactive” stopping) than officers in non-hotspot areas.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Internal Case Selection
+I will use a diverse case strategy to supplement my data. Rather than selecting only extreme or average cases, I will choose precincts and hotspots that vary systematically along the independent variable (degree of predictive policing) and the dependent variable (racial disparity in stops). This will allow me to identify where the predictive policing–racial disparity link is strong, where it is weak, and what contextual factors explain the difference. Such a design is essential to rule out rival explanations like disparities being the result of individual officer bias or the racial geography of crime. By comparing precincts that are demographically similar but differ in their use of predictive tools, or precincts with the same tech level but different stop patterns, I can better isolate the causal role of technology.
 
-### There's a horizontal rule below this.
+## External Case Selection
+While I will begin with New York City, I plan to add a second city for comparison. This will further enhance the external validity of my study by testing whether the mechanisms observed in NYC travel to other urban contexts. The second city will be chosen based on the following criteria: (1) use of predictive policing tools; (2) availability of stop or arrest data, ideally disaggregated by race; (3) a racially diverse population; and (4) some public visibility or oversight of its policing technologies. Potential cities I’ve looked at are Chicago, which has used HunchLab and other predictive tools, Los Angeles, which implemented person-based predictive policing through LASER (now discontinued), or Baltimore, which has integrated predictive tools into its CompStat process. This second site will enable both between-city comparisons and additional within-city analysis of precincts or neighborhoods.
 
-* * *
+The universe of cases my study seeks to explain includes U.S. urban police departments that use place-based predictive policing tools. While data limitations restrict me to a few cities in practice, I aim to develop theory and findings that are applicable across a broader set of technologically mediated law enforcement agencies. New York is a particularly compelling case because of its long history of stop-and-frisk, its early adoption of predictive policing tools, and its rich, publicly available policing and demographic datasets. The addition of a second city will test the generalizability of my claims and clarify which dynamics are unique to NYPD versus common across predictive policing systems.
 
-### Here is an unordered list:
+## Data Sources
+1. Stop-and-frisk (SQF) data from NYPD, 2010-2024. 
+2. CompStat 2.0 crime data from NYPD, 2010-2024
+3. 	Census data (demographics etc.) from the American Community Survey (ACS) 2010-2024
+4. Interviews with New York Police Officers
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+# Next Steps
+- There are conflicting methodologies for delineating space for analysis. Whether intersections [1], [12] or spatial tiles [13], [14]. Figuring out what method is better suited for racial analysis is a chief concern.
