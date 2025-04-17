@@ -23,11 +23,11 @@ Research has found that in 40% to 45% of violent crime hot spots in NYC, officer
 Two major events preceded the proportional increase in Black Terry stops over the last 10 years; Floyd vs. City of New York, which led to a dramatic decrease in the number of SQFs in NYC [3], and the NYPD’s implementation of the Domain Awareness System (DAS), which provides officers real-time crime statistics, biographical data, place-based critical alerts and potential threats, historical crime data, and other information. However, several problems arise with this big-data policing. 
 
 1.	**Audits of the NYPD arrest system demonstrated recurring errors in crime data entry.** [8] 
-  1. Officers fill out SQF forms by hand, and then the forms are entered manually into a database. Thus, the reliability of SQF data is an issue, and it should be considered while interpreting the results of this study. [1]
+    > Officers fill out SQF forms by hand, and then the forms are entered manually into a database. Thus, the reliability of SQF data is an issue, and it should be considered while interpreting the results of this study. [1]
 2.	Since 2016, NYPD’s DAS has employed an **AI-driven crime prediction tool**, Patternizr [9], **has raised concerns about racial bias** [10] 
-  1. Especially because Patternizr includes arrest data in its predictions and research has posited that “predictive systems based primarily on arrests will mirror policing patterns more than predictive systems focused on reported crimes will.” [4]
+    > Especially because Patternizr includes arrest data in its predictions and research has posited that “predictive systems based primarily on arrests will mirror policing patterns more than predictive systems focused on reported crimes will.” [4]
 3.	**Researchers observed that patrol officers become more like detectives trying to figure out the crime drivers in the predicted crime area.** [11] 
-  1. Patrol officers got out of their cars more, engaged citizens more, and focused on “intelligence gathering.” Police officers stopped and questioned more people, ran people’s records, investigated unreported narcotics use, and tried to understand who was involved in criminal activity. [4] 
+    > Patrol officers got out of their cars more, engaged citizens more, and focused on “intelligence gathering.” Police officers stopped and questioned more people, ran people’s records, investigated unreported narcotics use, and tried to understand who was involved in criminal activity. [4] 
 
 **Given that we care about mitigating the disparate impact-cost of public safety, it is important that we understand how the spillover effects of the development and implementation of these technologies.**
 
